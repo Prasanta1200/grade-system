@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+    <h1>GRADING SYSSTEM ASSIGNMENT</h1>
+    <div class="greading-system">
+        <h2>Grading System in Js</h2>
+    <form id="grade-form">
+      <label for="english">English:</label>
+      <input type="text" id="english" name="english" required pattern="\d+" min="0" max="100">
+      <br>
+      <label for="maths">Maths:</label>
+      <input type="text" id="maths" name="maths" required pattern="\d+" min="0" max="100">
+      <br>
+      <label for="physics">Physics:</label>
+      <input type="text" id="physics" name="physics" required pattern="\d+" min="0" max="100">
+      <br>
+      <label for="chemistry">Chemistry:</label>
+      <input type="text" id="chemistry" name="chemistry" required pattern="\d+" min="0" max="100">
+      <br>
+      <label for="computer">Computer:</label>
+      <input type="text" id="computer" name="computer" required pattern="\d+" min="0" max="100">
+      <br>
+      <button type="submit">Calculate Grade</button>
+    </form>
+</div>
+    <div id="result" >
+      <div><h2>Total: <span id="total"></span></h2></div>
+      <div><h2>Average: <span id="average"></span></h2></div>
+     <div> <h2>Grade: <span id="grade"></span></h2></div>
+    </div>
+
+</div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
